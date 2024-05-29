@@ -187,4 +187,12 @@ timestamp = Utils.get_timestamp() # Example: 1714747956885
 current_time = Utils.log_time() # Example: 16:52:36
 ```
 
+<h2 align="center"> 📹 Showcase 📹 </h2>
+
 ![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/1f4ec630-131c-446f-8169-e82881d45e1b)
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/0b050fb3-d8dc-4d79-ac79-fdfaa667cf14)
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/ebf7e315-63a2-485b-867a-5dfc457b8b29)
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/d7d4ef0b-df52-4f94-ab46-3a05ee65cc0d)
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/a8db6296-d6d0-4764-8512-8bd09e1f4fe1)
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/f2913349-e9fb-46b6-84ba-a5230d479365)
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/79c4c427-9eaa-4de2-a992-e196f3eec2d9)
