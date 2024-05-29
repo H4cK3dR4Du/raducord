@@ -66,17 +66,25 @@ pip install raducord==1.0.0
 ### - Console Utils 💻:
 
 ```bash
-- Console.init() # [Allow use of colors]
-- Console.clear() # [Clear terminal]
-- Console.size(x, y) # [Set size to your terminal]
-- Console.execute_command("pip install raducord") # [Execute any cmd command]
-- Console.title("Raducord Library On Top") # [Set title to your program]
-- Console.close() # [Close the terminal]
-- Console.full_screen() # [Full screen your terminal]
+Console.init() # [Allow use of colors]
+Console.clear() # [Clear terminal]
+Console.size(x, y) # [Set size to your terminal]
+Console.execute_command("pip install raducord") # [Execute any cmd command]
+Console.title("Raducord Library On Top") # [Set title to your program]
+Console.close() # [Close the terminal]
+Console.full_screen() # [Full screen your terminal]
 ```
 
 ### - ColorUtils 🌈:
 
 ```bash
-- 
+print(ColorUtils.hex_color("#D00000") + "Raducord Library ColorUtils!") # [Use any color by its HEX code!]
+print(ColorUtils.rgb_color(208, 0, 0) + "Raducord Library ColorUtils!") # [Use any color by its RGB code!]
+print(ColorUtils.hsl_color(0, 100, 41) + "Raducord Library ColorUtils!") # [Use any color by its HSL code!]
+
+# Example Colors In Variables:
+
+red = ColorUtils.hex_color("#FF0000")
+red = ColorUtils.rgb_color(255, 0, 0)
+red = ColorUtils.hsl_color(0, 100, 50)
 ```
