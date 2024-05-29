@@ -78,9 +78,9 @@ Console.full_screen() # [Full screen your terminal]
 ### - ColorUtils 🌈:
 
 ```bash
-print(ColorUtils.hex_color("#D00000") + "Raducord Library ColorUtils!") # [Use any color by its HEX code!]
-print(ColorUtils.rgb_color(208, 0, 0) + "Raducord Library ColorUtils!") # [Use any color by its RGB code!]
-print(ColorUtils.hsl_color(0, 100, 41) + "Raducord Library ColorUtils!") # [Use any color by its HSL code!]
+print(ColorUtils.hex_color("#D00000") + "Raducord Library ColorUtils!") # [Use any color by its HEX code]
+print(ColorUtils.rgb_color(208, 0, 0) + "Raducord Library ColorUtils!") # [Use any color by its RGB code]
+print(ColorUtils.hsl_color(0, 100, 41) + "Raducord Library ColorUtils!") # [Use any color by its HSL code]
 
 # Example Colors In Variables:
 
@@ -89,4 +89,90 @@ red = ColorUtils.rgb_color(255, 0, 0)
 red = ColorUtils.hsl_color(0, 100, 50)
 
 # URL For Colors: https://coolors.co/palettes/trending
+```
+
+### - BannerUtils 📋:
+
+```bash
+# Boxes:
+
+print(BannerUtils.box_1("Raducord Library!"))
+print(BannerUtils.box_2("Raducord Library!"))
+print(BannerUtils.box_3("Raducord Library!"))
+print(BannerUtils.box_4("Raducord Library!"))
+print(BannerUtils.box_5("Raducord Library!"))
+print(BannerUtils.box_6("Raducord Library!"))
+print(BannerUtils.box_7("Raducord Library!"))
+print(BannerUtils.box_8("Raducord Library!"))
+print(BannerUtils.box_9("Raducord Library!"))
+
+# Lines:
+
+print(BannerUtils.lines_1("Raducord Library!"))
+print(BannerUtils.lines_2("Raducord Library!"))
+print(BannerUtils.lines_3("Raducord Library!"))
+print(BannerUtils.lines_4("Raducord Library!"))
+print(BannerUtils.lines_5("Raducord Library!"))
+print(BannerUtils.lines_6("Raducord Library!"))
+
+# Center Text:
+
+print(BannerUtils.center_text("Raducord Library!"))
+```
+
+### - TextUtils 🗒️:
+
+```bash
+print(TextUtils.fancy_text("Raducord Library"))
+print(TextUtils.fraktur_text("Raducord Library"))
+print(TextUtils.cursive_text("Raducord Library"))
+print(TextUtils.syllabic_text("Raducord Library"))
+print(TextUtils.strikethrough_text("Raducord Library"))
+print(TextUtils.double_struck_text("Raducord Library"))
+
+# ASCII Banners:
+
+print(TextUtils.make_ascii("Raducord", font="3-d"))
+print(TextUtils.make_ascii("Raducord", font="graffiti"))
+print(TextUtils.make_ascii("Raducord", font="a_zooloo"))
+print(TextUtils.make_ascii("Raducord", font="6x9"))
+
+# URL With ASCII List: https://pastebin.com/raw/wKdnb2n0
+```
+
+### - Gradient 🍧:
+
+```bash
+# Custom Text/Banner With Gradient Colors (RGB):
+# Usage: Gradient.gradient_text_custom(text, (R, G, B), (R, G, B)))
+
+banner = "Raducord Library\nRaducord Library\nRaducord Library\nRaducord Library\nRaducord Library\nRaducord Library"
+print(Gradient.gradient_text_custom(banner, (0, 255, 0), (255, 255, 0)))
+
+banner = "Raducord Library\nRaducord Library\nRaducord Library\nRaducord Library\nRaducord Library\nRaducord Library"
+print(Gradient.gradient_text_custom(banner, (255, 0, 0), (0, 0, 255)))
+
+# You can use default gradient colors (Over 200) such as:
+
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.blue_to_green))
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.red_to_blue))
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.yellow_to_gray))
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.pink_to_orange))
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.orange_to_blue))
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.gold_to_red))
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.silver_to_blue))
+print(Gradient.gradient_text("Raducord Text Gradient", GradientColors.cyan_to_green))
+```
+
+### - Discord Utils 🥏:
+
+```bash
+native_build = Discord.get_native_build()
+main_version = Discord.get_main_version()
+build_number = Discord.get_build_number()
+xsuper_properties = Discord.get_xsuper_properties(native_build, main_version, build_number)
+cookies = Discord.get_cookies(proxy)
+birthdate = Discord.generate_birthdate()
+check_token = Discord.check_token("MTE...") (True/False)
+fingerprint = Discord.get_fingerprint(proxy)
 ```
