@@ -176,3 +176,13 @@ birthdate = Discord.generate_birthdate()
 check_token = Discord.check_token("MTE...") (True/False)
 fingerprint = Discord.get_fingerprint(proxy)
 ```
+
+### - Utils 🪄:
+
+```bash
+full_name = Utils.get_full_name() # Example: Claudia, Lemos
+uuid_ = Utils.generate_uuid() # Example: d3c23143-f876-1404-45c6-478de1899d0f
+user_agent = Utils.generate_user_agent() # Example: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36
+timestamp = Utils.get_timestamp() # Example: 1714747956885
+current_time = Utils.log_time() # Example: 16:52:36
+```
