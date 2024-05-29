@@ -66,13 +66,13 @@ pip install raducord==1.0.0
 ### - Console Utils 💻:
 
 ```bash
-- **Console.init()** [Allow use of colors]
-- **Console.clear()** [Clear terminal]
-- **Console.size(x, y)** [Set size to your terminal]
-- **Console.execute_command("pip install raducord")** [Execute any cmd command]
-- **Console.title("Raducord Library On Top")** [Set title to your program]
-- **Console.close()** [Close the terminal]
-- **Console.full_screen()** [Full screen your terminal]
+- Console.init() # [Allow use of colors]
+- Console.clear() # [Clear terminal]
+- Console.size(x, y) # [Set size to your terminal]
+- Console.execute_command("pip install raducord") # [Execute any cmd command]
+- Console.title("Raducord Library On Top") # [Set title to your program]
+- Console.close() # [Close the terminal]
+- Console.full_screen() # [Full screen your terminal]
 ```
 
 ### - ColorUtils 🌈:
