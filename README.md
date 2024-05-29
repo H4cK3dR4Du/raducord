@@ -186,3 +186,5 @@ user_agent = Utils.generate_user_agent() # Example: Mozilla/5.0 (Macintosh; Inte
 timestamp = Utils.get_timestamp() # Example: 1714747956885
 current_time = Utils.log_time() # Example: 16:52:36
 ```
+
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/1f4ec630-131c-446f-8169-e82881d45e1b)
