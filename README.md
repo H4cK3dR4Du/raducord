@@ -87,4 +87,6 @@ print(ColorUtils.hsl_color(0, 100, 41) + "Raducord Library ColorUtils!") # [Use 
 red = ColorUtils.hex_color("#FF0000")
 red = ColorUtils.rgb_color(255, 0, 0)
 red = ColorUtils.hsl_color(0, 100, 50)
+
+# URL For Colors: https://coolors.co/palettes/trending
 ```
