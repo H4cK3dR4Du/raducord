@@ -187,6 +187,20 @@ timestamp = Utils.get_timestamp() # Example: 1714747956885
 current_time = Utils.log_time() # Example: 16:52:36
 ```
 
+### - Logger ✏️:
+
+```bash
+Logger.success("Success Test,Raducord,Testing")
+Logger.failed("Failed Test,Raducord,Testing")
+Logger.info("Info Test,Raducord,Testing")
+Logger.captcha("idk Test,Raducord,Testing")
+Logger.warning("Warning Test,Raducord,Testing")
+Logger.pretty("idk2 Test,Raducord,Testing")
+
+# Custom Logger (Hex Code, Symbol, Text):
+Logger.custom("FF0000", "*", "Custom Test,Raducord,Testing")
+```
+
 <h2 align="center"> 📹 Showcase 📹 </h2>
 
 ![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/1f4ec630-131c-446f-8169-e82881d45e1b)
@@ -196,3 +210,4 @@ current_time = Utils.log_time() # Example: 16:52:36
 ![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/a8db6296-d6d0-4764-8512-8bd09e1f4fe1)
 ![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/f2913349-e9fb-46b6-84ba-a5230d479365)
 ![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/79c4c427-9eaa-4de2-a992-e196f3eec2d9)
+![image](https://github.com/H4cK3dR4Du/raducord/assets/118562174/fa53415c-5fdb-4f1e-be73-75be1916b75f)
