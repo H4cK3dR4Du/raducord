@@ -1,9 +1,9 @@
 <h1 align="center">✨ ℝ𝕒𝕕𝕦𝕔𝕠𝕣𝕕 𝕃𝕚𝕓𝕣𝕒𝕣𝕪 ✨</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/license/H4cK3dR4Du/Epic-Games-X-Discord.svg?style=for-the-badge&labelColor=black&color=c1121f&logo=IOTA"/>
-  <img src="https://img.shields.io/github/stars/H4cK3dR4Du/Epic-Games-X-Discord.svg?style=for-the-badge&labelColor=black&color=c1121f&logo=IOTA"/>
-  <img src="https://img.shields.io/github/languages/top/H4cK3dR4Du/Epic-Games-X-Discord.svg?style=for-the-badge&labelColor=black&color=c1121f&logo=javascript"/>
+  <img src="https://img.shields.io/github/license/H4cK3dR4Du/raducord.svg?style=for-the-badge&labelColor=black&color=c1121f&logo=IOTA"/>
+  <img src="https://img.shields.io/github/stars/H4cK3dR4Du/raducord.svg?style=for-the-badge&labelColor=black&color=c1121f&logo=IOTA"/>
+  <img src="https://img.shields.io/github/languages/top/H4cK3dR4Du/raducord.svg?style=for-the-badge&labelColor=black&color=c1121f&logo=javascript"/>
 </p>
 
 <h2 align="center"> 📝 Description 📝 </h2>
