@@ -63,8 +63,9 @@ pip install raducord==1.0.0
 
 <h2 align="center"> 🪄 How To Use Raducord 🪄 </h2>
 
-### - Console Utils:
+### - Console Utils 💻:
 
+```bash
 - **Console.init()** [Allow use of colors]
 - **Console.clear()** [Clear terminal]
 - **Console.size(x, y)** [Set size to your terminal]
@@ -72,3 +73,10 @@ pip install raducord==1.0.0
 - **Console.title("Raducord Library On Top")** [Set title to your program]
 - **Console.close()** [Close the terminal]
 - **Console.full_screen()** [Full screen your terminal]
+```
+
+### - ColorUtils 🌈:
+
+```bash
+- 
+```
